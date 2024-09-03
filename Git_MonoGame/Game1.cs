@@ -10,6 +10,7 @@ namespace Git_MonoGame
         private SpriteBatch _spriteBatch;
         Vector2 _position;
         int direction;
+        int speed;
 
         public Game1()
         {
