@@ -7,11 +7,13 @@ namespace Git_MonoGame
     public class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
+        private SpriteBatch _spriteBatch;      
         private SpriteBatch _spriteBatch;
         Texture2D _texture;
         Vector2 _position;
         int direction;
         int speed;
+        KeyboardState _keyboardState;
 
         public Game1()
         {
