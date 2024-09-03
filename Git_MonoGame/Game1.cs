@@ -9,6 +9,7 @@ namespace Git_MonoGame
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         Vector2 _position;
+        int direction;
 
         public Game1()
         {
